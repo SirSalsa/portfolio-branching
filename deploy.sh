@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Make the script executable, only run once
-# "chmod +x deploy.sh"
-
 # Update submodules to the latest gh-pages commit
 git submodule update --init --remote
 
