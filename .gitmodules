@@ -1,0 +1,4 @@
+[submodule "leveldesign"]
+	path = leveldesign
+	url = https://github.com/sirsalsa/game-portfolio
+	branch = gh-pages
