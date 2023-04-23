@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Make the script executable
-chmod +x "$0"
+# Make the script executable, only run once
+# "chmod +x deploy.sh"
 
 # Update submodules to the latest gh-pages commit
-git submodule update --remote
+git submodule update --init --remote
 
 # Commit and push changes
 git add .
