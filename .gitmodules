@@ -2,3 +2,7 @@
 	path = leveldesign
 	url = https://github.com/sirsalsa/game-portfolio
 	branch = gh-pages
+[submodule "development"]
+	path = development
+	url = https://github.com/SirSalsa/dev-portfolio.git
+	branch = gh-pages
